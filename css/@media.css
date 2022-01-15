@@ -1,0 +1,155 @@
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+/* // Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) and (max-width: 991.98px) {}
+
+/* // Medium devices (tablets, 768px and up) */
+
+
+/* // Small devices (landscape phones, 576px and up) */
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .banner-text p {
+        padding: 0px;
+    }
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+
+
+/* // Extra small devices (portrait phones, less than 576px) */
+
+@media (max-width: 575.98px) {
+
+    .navbar-toggler i {
+        color: white;
+        font-size: 40px;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+}
+
+.navbar-toggler:hover i{
+    background: rgb(173, 97, 97);
+    padding: 3px 5px;
+    border: 1px solid white;
+}
+
+    .navbar-nav {
+
+        background: rgb(173, 97, 97);
+        text-align: center;
+    }
+
+    /* banner part */
+ 
+    .banner-text h1 {
+        font-size: 40px;
+        line-height: 34px;
+    }
+
+    .banner-text h3 {
+        font-size: 26px;
+        line-height: 30px;
+    }
+    .banner-text p {
+        padding: 0px;
+    }
+
+    /* banner part */
+
+
+    /* idea text */
+ 
+   .idea-text h3 {
+    font-size: 27px;
+    line-height: 28px;
+    }
+        
+       /* idea text */
+
+
+       /* purchase text */
+       .purchase-text{
+           text-align: center;
+       }
+       .purchase-text h4 {
+        font-size: 25px;
+        line-height: 28px;
+    }
+    .purchase-text h6 {
+        line-height: 24px;
+    }
+    .purchase-button {
+        text-align: center;
+        margin-top: 20px;
+    }
+       /* purchase text */
+
+    /* latest part */
+    
+       .latest-text h2 {
+        text-align: center;
+    }
+    /* latest part */
+
+    /* hand text */
+    .hand-text {
+        text-align: center;
+    }
+
+    .hand-text h3 {
+        line-height: 30px;
+    }
+
+    .hand-icon-text {
+        margin-left: 0px;
+    }
+    /* hand text */
+
+    /* linkbutton */
+    .link-button button {
+        padding: 8px 11px;
+        margin: 4px 4px;
+    }
+    /* linkbutton */
+    
+    /* counter part start */
+    .counter-margin {
+        margin-bottom: 50px;
+    }
+    /* counter part start */
+   
+
+    .slick-slide img {
+        margin: 0 auto;
+        display: flex;
+    }
+
+
+    /* citation part */
+    .citation-margin{
+        margin-bottom: 9px;
+    }
+    /* citation part */
+
+    .copyright-flex{
+         display: flex;
+         flex-direction: column;
+    }
+
+
+    .copyright1{
+        margin-bottom: 15px;
+    }
+
+}
+
+/* // Extra small devices (portrait phones, less than 576px) */
