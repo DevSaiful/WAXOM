@@ -12,10 +12,76 @@
 
 
 /* // Small devices (landscape phones, 576px and up) */
-/* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
+
+    /* navbar part start  */
+    button:focus {
+        outline: none;
+    }
+
+    .navbar-toggler i {
+        color: white;
+        font-size: 40px;
+    }
+
+    .navbar-nav {
+        background: rgb(173, 97, 97);
+        text-align: center;
+    }
+
+    /* navbar part end */
+
+    /* #banner part start */
+
     .banner-text p {
         padding: 0px;
+    }
+
+    .banner-text h3 {
+        font-size: 21px;
+
+    }
+
+    .banner-text h1 {
+        font-size: 31px;
+
+    }
+
+    .latest-text {
+        text-align: center;
+    }
+
+    .lorem-text {
+        text-align: center;
+    }
+
+    /* #banner part end */
+
+    /* .link-button start */
+
+    .link-button {
+        text-align: center;
+    }
+
+    .link-button button {
+        margin: 5px 5px;
+    }
+
+    .counter-margin {
+        margin-bottom: 50px;
+    }
+
+    /* .link-button end */
+    .purchase-text {
+        text-align: center;
+    }
+
+    .purchase-text h4 {
+        line-height: 30px;
+    }
+
+    .purchase-text h6 {
+        padding-bottom: 20px;
     }
 }
 
@@ -25,31 +91,27 @@
 /* // Extra small devices (portrait phones, less than 576px) */
 
 @media (max-width: 575.98px) {
-
+    body{
+       height: 100vh;
+    }
+     
     .navbar-toggler i {
         color: white;
-        font-size: 40px;
-        border-radius: 5px;
-        -webkit-border-radius: 5px;
-        -moz-border-radius: 5px;
-        -ms-border-radius: 5px;
-        -o-border-radius: 5px;
-}
+        font-size: 36px;
+        font-weight: 300;
+    }
 
-.navbar-toggler:hover i{
-    background: rgb(173, 97, 97);
-    padding: 3px 5px;
-    border: 1px solid white;
-}
+
+    button:focus {
+        outline: none;
+    }
 
     .navbar-nav {
-
-        background: rgb(173, 97, 97);
         text-align: center;
     }
 
     /* banner part */
- 
+
     .banner-text h1 {
         font-size: 40px;
         line-height: 34px;
@@ -59,6 +121,7 @@
         font-size: 26px;
         line-height: 30px;
     }
+
     .banner-text p {
         padding: 0px;
     }
@@ -67,37 +130,42 @@
 
 
     /* idea text */
- 
-   .idea-text h3 {
-    font-size: 27px;
-    line-height: 28px;
+
+    .idea-text h3 {
+        font-size: 27px;
+        line-height: 28px;
     }
-        
-       /* idea text */
+
+    /* idea text */
 
 
-       /* purchase text */
-       .purchase-text{
-           text-align: center;
-       }
-       .purchase-text h4 {
+    /* purchase text */
+    .purchase-text {
+        text-align: center;
+    }
+
+    .purchase-text h4 {
         font-size: 25px;
         line-height: 28px;
     }
+
     .purchase-text h6 {
         line-height: 24px;
     }
+
     .purchase-button {
         text-align: center;
         margin-top: 20px;
     }
-       /* purchase text */
+
+    /* purchase text */
 
     /* latest part */
-    
-       .latest-text h2 {
+
+    .latest-text h2 {
         text-align: center;
     }
+
     /* latest part */
 
     /* hand text */
@@ -112,21 +180,28 @@
     .hand-icon-text {
         margin-left: 0px;
     }
+
     /* hand text */
 
     /* linkbutton */
+    .link-button {
+        text-align: center;
+    }
+
     .link-button button {
         padding: 8px 11px;
         margin: 4px 4px;
     }
+
     /* linkbutton */
-    
+
     /* counter part start */
     .counter-margin {
         margin-bottom: 50px;
     }
+
     /* counter part start */
-   
+
 
     .slick-slide img {
         margin: 0 auto;
@@ -135,21 +210,19 @@
 
 
     /* citation part */
-    .citation-margin{
+    .citation-margin {
         margin-bottom: 9px;
     }
+
     /* citation part */
 
-    .copyright-flex{
-         display: flex;
-         flex-direction: column;
-    }
 
-
-    .copyright1{
+    .copyright1 {
         margin-bottom: 15px;
     }
 
 }
+
+
 
 /* // Extra small devices (portrait phones, less than 576px) */

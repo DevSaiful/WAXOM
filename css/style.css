@@ -80,7 +80,7 @@ img {
     }
 }
 
-/* ===========banneer */
+/* ===========banneer=========== */
 
 #banner {
     background: url(../image/banner.jpg);
@@ -237,6 +237,20 @@ img {
 }
 
 /* =========purchase part start== */
+
+
+
+/* protfolio part start */
+
+#protfolio{
+    padding: 250px 0px;
+     background: url(../image/tripage.jpg);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+
+/* protfolio part end */
 
 #purchase {
     padding: 50px 0px;
@@ -474,6 +488,7 @@ img {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    width: 100%;
 }
 
 .video-overlay {
@@ -781,8 +796,8 @@ img {
 /* back to top */
 
 .back-to-top{
-    height: 60px;
-    width: 60px;
+    height: 30px;
+    width: 30px;
     background: brown;
     position: fixed;
     border-radius: 5px;
@@ -797,7 +812,8 @@ img {
 .back-to-top i{
     color: #ffffff;
     position: absolute;
-    font-size: 30px;
+    font-size: 22px;
+    font-weight: 300;
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
